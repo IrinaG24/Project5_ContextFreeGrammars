@@ -1,0 +1,44 @@
+4 2 10
+S A B C
+a b
+S->B
+S->CC
+S->b
+A->S
+A->SB
+B->C
+B->BC
+C->AB
+C->a
+C->b
+S
+4 2 9
+S A B C
+a b
+S->C
+S->CC
+S->b
+A->B
+B->S
+B->C
+B->BC
+C->a
+C->AB
+S
+6 2 13
+S D A B C U
+a b
+S->D
+D->AD
+D->b
+A->AB
+A->BC
+A->a
+B->AA
+B->UC
+C->eps
+C->CA
+C->a
+U->eps
+U->aUb
+S
